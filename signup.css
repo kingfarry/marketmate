@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('smile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 0;
+    height: 100%;
+     */
+}
+
+header{
+    /* background-color: #333; */
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    
+}
+ header b{
+    color:white;
+    background:black;
+    border-start-end-radius:40px;
+    padding:9px 9px 9px 11px;
+    font-size: 27px;
+
+ }
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin: 0 auto
+}
+
+form{
+    width: 300px;
+    margin-left:50px;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    box-shadow: 0 0 10px frgba(0, 0, 0, 0,1);
+    margin-top: -80px;
+}
+
+.background{
+    background-color: rgba(255, 255,  255, 0.5);
+    border:1px solid rgba(0, 0, 0, 0.2 );
+    padding:20px;
+    width:300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label{
+    display:block;
+    margin-bottom:10px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='rel'],
+input[type='password']{
+    width:100%;
+    padding:10px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    opacity:0.8;
+    
+}
+
+input:focus{
+    opacity:1;
+    box-shadow:0 0 5px rgba(0, 0, 0,0.5);
+}
+
+input
+[
+    type='submit'
+]{
+    background-color: #333;
+    color:#fff;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+input[type = "submit"]:hover{
+    background-color:#444;
+}
+
